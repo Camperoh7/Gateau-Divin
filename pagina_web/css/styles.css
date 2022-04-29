@@ -245,7 +245,7 @@ main .section2 img{
         height: 350px;
     }
     .navbar{
-        justify-content: space-around;
+        justify-content:center;
     }
     .navbar img{
         height: 10vh;
