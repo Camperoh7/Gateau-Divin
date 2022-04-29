@@ -245,11 +245,16 @@ main .section2 img{
         height: 350px;
     }
     .navbar{
-        justify-content:space-evenly;
+        justify-content: space-around;
     }
     .navbar img{
-        height: 10vh;
-        width: 20%;
+        width: 70px;
+    }
+    .navbar img a{
+        margin-right: 0;
+    }
+    .navbar h1{
+        margin-left: 0;
     }
     .redes{
         display: none;
