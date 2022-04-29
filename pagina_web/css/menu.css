@@ -210,3 +210,36 @@ main{
     overflow-y: scroll;
     width: 100%;
 }
+/*Responsive*/
+@media screen and (max-width:900px){
+    .flicker{
+        font-size: 30px;
+    }
+    .fast-flicker{
+        font-size: 30px;
+    }
+    main .section1 img{
+        height: 350px;
+    }
+    main .section2 img{
+        height: 350px;
+    }
+    .navbar{
+        justify-content: space-around;
+    }
+    .navbar img{
+        width: 70px;
+    }
+    .navbar img a{
+        margin-right: 0;
+    }
+    .navbar h1{
+        margin-left: 0;
+    }
+    .redes{
+        display: none;
+    }
+    .sign{
+        font-size: 30px;
+    }
+}
